@@ -1,0 +1,3 @@
+# Python config file for storing Binance API confidentials
+api_secret = 'w1NI0O4ZwOOioQUsvfKB3peJEVghBOJWKvjw9y5hvNra8ggYjdpZfGmLzljrohoL'
+api_key = 'yWYeFIwhmkD7pjnAhgeJNCXUJ4NgsSnYFzCyebr4qolHwQLp3vmT94iBnIyHVsEo'
