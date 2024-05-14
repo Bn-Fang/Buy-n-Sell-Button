@@ -184,11 +184,11 @@ String stockSel(){
   waitForButton();
   String input = "";
   if (choice == 0){
-    return "BTCUSD";
+    return "BTCUSDT";
   } else if (choice == 1){
-    return "ETHUSD";
+    return "ETHUSDT";
   } else if (choice == 2){
-    return "ADAUSD";
+    return "ADAUSDT";
   }else if (choice == 3){
     Serial.println("#run INPUT#");
     while (true){
@@ -203,7 +203,7 @@ String stockSel(){
 void displaySEL(int prev, int choice){
   display.clearDisplay();
   if (choice == prev) return;
-  String stockChoice[] = {"BTCUSD", "ETHUSD", "ADAUSD", ". . ."};
+  String stockChoice[] = {"BTCUSDT", "ETHUSDT", "ADAUSDT", ". . ."};
   for(int i=0; i<4; i++){
     if (i == choice){
       display.fillRect(0, 16*choice, 128, 16, WHITE);
